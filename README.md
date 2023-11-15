@@ -57,7 +57,7 @@ gcc version =< 4.8.5
 
 Para la ejecucion con multiples procesos y nodos se hizo uso de Kabre, un cluster facilitado por el Colaboratio de Nacionaciol de Computacion Avanzada (CNCA) del Centro Nacional de Tecnologia (CeNAT). Por esta razon es necesario que para ejecutarlo tenga una cuenta activa en el o disponga de las misma versiones de las bibliotecas en su ambiente junto a los nodos y procesos por usados en esta implementacion.
 
-Una vez accediendo a su espacio dado por el cluster puede generar el ejecutable:
+Una vez accediendo a su espacio dado por el cluster puede clonar el repositorio, acceder a la carpeta que contiene el codigo y generar el ejecutable:
 
 ```bash
 mpicc -std=c99 -g -o matrix_sum_mpi matrixSumMPI.c
